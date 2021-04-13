@@ -26,7 +26,7 @@ function Fhotosession() {
                     <div className={s.wrapper}>
                         <img src={cup} alt=""/>
                         <div className={s.box}>
-                            <a className={s.link} href="">Более <span className={s.linkAccent}>150</span> отзывов с оценкой</a>
+                            <a className={s.link} href="">Более <span className={s.linkAccent}> 150 </span> отзывов с оценкой</a>
                             <img className={s.imgRating} src={stars} alt=""/>
                         </div>
                     </div>
