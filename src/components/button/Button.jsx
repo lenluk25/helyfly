@@ -2,10 +2,10 @@ import s from './Button.module.scss';
 
 function Button(props) {
     return (
-        <button className={s.btn}>
+        <button className={props.className ? s[props.className] : s.btn }>
             {props.title}
         </button>
     );
 }
 
-export default Button;
+export default Button

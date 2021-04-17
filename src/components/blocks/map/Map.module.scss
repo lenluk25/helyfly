@@ -1,0 +1,18 @@
+@import '../../../styles/sass/vars.scss';
+@import '../../../styles/sass/mixins.scss';
+
+.Map {
+    min-height: 423px;
+    max-width: 100%;
+    background-position: 57% center;
+    background-image: url(../../../assets/img/map.png);
+    object-fit: cover;
+    @include media(xs) {
+        min-height: 509px;
+        background-position: 60% center;
+    }
+}
+
+
+
+

@@ -4,6 +4,7 @@
 .container {
     @extend %container;
     padding-top: 63px;
+    margin-bottom: 40px;
     border-bottom: 0.5px solid $secondaryColor;
     @include media(sm) {
         padding-top: 56px;
@@ -47,19 +48,13 @@
     .title {
         margin: 23px 0 7px;
         color: $textColor;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 22px;
+        @include text(500, 18px, 22px);
     }
     .titleSignature {
         margin: 7px 0;
     }
     .link {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 21px;
+        @include text(500, 14px, 21px);
         text-align: center;
         color: $linkColor;
         text-decoration: none;
@@ -70,10 +65,7 @@
     max-width: 584px;
     .title {
         margin-bottom: 14px;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 26px;
+        @include text(500, 18px, 26px);
         color: #37373F;
     }
     .text {

@@ -1,8 +1,8 @@
 @import './vars.scss';
 
-@mixin text($fontSize, $fontWeight, $lineHeight) {
-    font-size: $fontSize;
+@mixin text($fontWeight, $fontSize, $lineHeight) {
     font-weight: $fontWeight;
+    font-size: $fontSize;
     line-height: $lineHeight;
 }
 

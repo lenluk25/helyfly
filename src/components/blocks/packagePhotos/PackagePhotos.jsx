@@ -21,7 +21,7 @@ function PackagePhotos() {
                     <img className={s.galleryImg} src={img4} alt=""/>
                 </div>
                 <div className={s.more}>
-                    <a className={s.link} href="">Показать все фото</a>
+                    <a className={s.link} href="#">Показать все фото</a>
                 </div>
             </div>
         </div>    

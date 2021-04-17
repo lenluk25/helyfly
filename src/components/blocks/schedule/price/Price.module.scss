@@ -1,0 +1,13 @@
+@import '../../../../styles/sass/vars.scss';
+@import '../../../../styles/sass/mixins.scss';
+
+.container {
+    @extend %container;
+}
+
+.title {
+    @include text(400, 26px, 32px);
+    text-align: center;
+    color: #37373F;
+}
+
